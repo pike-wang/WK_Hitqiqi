@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="300,300" opacity="220">
+<Font id="0" name="微软雅黑" size="15"  />
+    <VerticalLayout bkcolor="#FFFFFFFF"> 
+	<RectProgress name="Progress" text="" foreimage="file='image\progress.png'" float="true" pos="0,0,300,300" min="0" max="400" value="0" hor="true" align="left" />
+	<label name="Logo" bkimage="file='image\WK_log.png'" float="true" pos="22,15,282,265" />
+	<Text name="maintext" text="" font="0" align="center" float="true" pos="20,260,280,280" />
+    </VerticalLayout>
+</Window>
+

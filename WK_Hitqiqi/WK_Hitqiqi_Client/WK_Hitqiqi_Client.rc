@@ -1,0 +1,151 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x0L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "TODO: <内部名称>"
+            VALUE "LegalCopyright", "Copyright (C) 2023"
+            VALUE "OriginalFilename", "TODO: <原文件名>"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_PNG_CLOSE                PNG                     "res\\close.png"
+IDB_PNG_CLOSE_FILL                PNG                     "res\\close_fill.png"
+IDB_PNG_HPLINE                PNG                     "res\\hpline.png"
+IDB_PNG_MINISIZE                PNG                     "res\\minisize.png"
+IDB_PNG_MINISIZE_FILL               PNG                     "res\\minisize_fill.png"
+IDB_PNG_NUM_0                PNG                     "res\\num_0.png"
+IDB_PNG_NUM_1               PNG                     "res\\num_1.png"
+IDB_PNG_NUM_2                PNG                     "res\\num_2.png"
+IDB_PNG_NUM_3                PNG                     "res\\num_3.png"
+IDB_PNG_NUM_4               PNG                     "res\\num_4.png"
+IDB_PNG_NUM_5               PNG                     "res\\num_5.png"
+IDB_PNG_NUM_6               PNG                     "res\\num_6.png"
+IDB_PNG_NUM_7               PNG                     "res\\num_7.png"
+IDB_PNG_NUM_8               PNG                     "res\\num_8.png"
+IDB_PNG_NUM_9               PNG                     "res\\num_9.png"
+IDB_PNG_PROGRESS               PNG                     "res\\progress.png"
+IDB_PNG_PROGRESS2               PNG                     "res\\progress2.png"
+IDB_PNG_BLADEAMMOR               PNG                     "res\\qiqi_pic_bladeammor.png"
+IDB_PNG_DEAD               PNG                     "res\\qiqi_pic_dead.png"
+IDB_PNG_FISH               PNG                     "res\\qiqi_pic_fish.png"
+IDB_PNG_FITNESS               PNG                     "res\\qiqi_pic_fitness.png"
+IDB_PNG_NORMAL               PNG                     "res\\qiqi_pic_normal.png"
+IDB_PNG_RUN               PNG                     "res\\qiqi_pic_run.png"
+IDB_PNG_SHADOW               PNG                     "res\\qiqi_pic_shadow.png"
+IDB_PNG_SHIELD               PNG                     "res\\qiqi_pic_shield.png"
+IDB_PNG_SMOKE               PNG                     "res\\qiqi_pic_smoke.png"
+IDB_PNG_SUCCESS               PNG                     "res\\qiqi_pic_success.png"
+IDB_PNG_TATTOO               PNG                     "res\\qiqi_pic_tattoo.png"
+IDB_PNG_TEA               PNG                     "res\\qiqi_pic_tea.png"
+IDB_PNG_WK_LOG               PNG                     "res\\WK_log.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// XML
+//
+
+IDF_XML_START_FRAME                  XML                     "res\\WK_StartFrame.xml"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// ICO
+//
+
+IDI_ICO__HITQIQI                 ICON                     "res\\HitQiQi.ico"
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

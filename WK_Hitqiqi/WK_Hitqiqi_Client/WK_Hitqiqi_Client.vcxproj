@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{d438e4d9-d3e8-4ec7-a68b-9bdd9eb3b820}</ProjectGuid>
+    <RootNamespace>WKHitqiqiClient</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)..\bin\debug\</OutDir>
+    <IntDir>$(SolutionDir)..\bin\objects\WK_Hitqiqi_Client\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\WK_Common\;$(SolutionDir)..\WK_Duilib\;$(SolutionDir)WK_Hitqiqi_Common\;$(SolutionDir)..\WK_Cores\Interface\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\bin\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+    </Link>
+    <PostBuildEvent>
+      <Command>$(ProjectDir)copy_d.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CClientCore.cpp" />
+    <ClCompile Include="CClientNet.cpp" />
+    <ClCompile Include="CClientSelectWnd.cpp" />
+    <ClCompile Include="CClientUserData.cpp" />
+    <ClCompile Include="CHitqiqiButtonUI.cpp" />
+    <ClCompile Include="CHitqiqiClientWnd.cpp" />
+    <ClCompile Include="UIQiqiPanel.cpp" />
+    <ClCompile Include="WK_Hitqiqi_Client.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\WK_Hitqiqi_Common\WK_Hitqiqi_def.h" />
+    <ClInclude Include="CClientCore.h" />
+    <ClInclude Include="CClientNet.h" />
+    <ClInclude Include="CClientSelectWnd.h" />
+    <ClInclude Include="CClientUserData.h" />
+    <ClInclude Include="CHitqiqiButtonUI.h" />
+    <ClInclude Include="CHitqiqiClientWnd.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="UIQiqiPanel.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WK_Hitqiqi_Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\close.png" />
+    <Image Include="res\close_fill.png" />
+    <Image Include="res\hpline.png" />
+    <Image Include="res\minisize.png" />
+    <Image Include="res\minisize_fill.png" />
+    <Image Include="res\num_0.png" />
+    <Image Include="res\num_1.png" />
+    <Image Include="res\num_2.png" />
+    <Image Include="res\num_3.png" />
+    <Image Include="res\num_4.png" />
+    <Image Include="res\num_5.png" />
+    <Image Include="res\num_6.png" />
+    <Image Include="res\num_7.png" />
+    <Image Include="res\num_8.png" />
+    <Image Include="res\num_9.png" />
+    <Image Include="res\progress.png" />
+    <Image Include="res\progress2.png" />
+    <Image Include="res\qiqi_pic_bladeammor.png" />
+    <Image Include="res\qiqi_pic_dead.png" />
+    <Image Include="res\qiqi_pic_fish.png" />
+    <Image Include="res\qiqi_pic_fitness.png" />
+    <Image Include="res\qiqi_pic_normal.png" />
+    <Image Include="res\qiqi_pic_run.png" />
+    <Image Include="res\qiqi_pic_shadow.png" />
+    <Image Include="res\qiqi_pic_shield.png" />
+    <Image Include="res\qiqi_pic_smoke.png" />
+    <Image Include="res\qiqi_pic_success.png" />
+    <Image Include="res\qiqi_pic_tattoo.png" />
+    <Image Include="res\qiqi_pic_tea.png" />
+    <Image Include="res\WK_log.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="res\WK_HitqiqiMainFrame.xml" />
+    <Xml Include="res\WK_HitqiqiSelectFrame.xml" />
+    <Xml Include="res\WK_StartFrame.xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

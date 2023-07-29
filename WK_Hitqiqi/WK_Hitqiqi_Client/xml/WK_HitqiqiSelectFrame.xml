@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="300,300" caption="0,0,0,20" opacity="220" roundcorner="10,10">
+<Font id="0" name="微软雅黑" size="20"  />
+<Font id="1" name="微软雅黑" size="15"  />
+    <VerticalLayout bkcolor="#FFd3cbaf"> 
+	
+	<HorizontalLayout height="60" >
+	<Text name="des" text="" borderround="4,4" align="left" font="0" float="true" pos="15,15,580,60"/>
+	</HorizontalLayout>
+	
+	<VerticalLayout name="main_block"> 
+	</VerticalLayout>
+	
+    </VerticalLayout>
+</Window>

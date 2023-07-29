@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WK_Hitqiqi_Server", "WK_Hitqiqi_Server\WK_Hitqiqi_Server.vcxproj", "{ADE57C41-8D78-4CD5-BE72-949795492BF1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6FD36346-F6E0-4C15-AB8E-52146C007B0F} = {6FD36346-F6E0-4C15-AB8E-52146C007B0F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WK_Hitqiqi_Client", "WK_Hitqiqi_Client\WK_Hitqiqi_Client.vcxproj", "{D438E4D9-D3E8-4EC7-A68B-9BDD9EB3B820}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D90F2703-545D-48C5-B8EE-A2A879E10973} = {D90F2703-545D-48C5-B8EE-A2A879E10973}
+		{6FD36346-F6E0-4C15-AB8E-52146C007B0F} = {6FD36346-F6E0-4C15-AB8E-52146C007B0F}
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E} = {E106ACD7-4E53-4AEE-942B-D0DD426DB34E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DuiLib", "..\WK_Duilib\DuiLib.vcxproj", "{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WK_EncryptCore", "..\WK_Cores\WK_EncryptCore\WK_EncryptCore.vcxproj", "{D90F2703-545D-48C5-B8EE-A2A879E10973}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WK_LogCore", "..\WK_Cores\WK_LogCore\WK_LogCore.vcxproj", "{6FD36346-F6E0-4C15-AB8E-52146C007B0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADE57C41-8D78-4CD5-BE72-949795492BF1}.Debug|x86.ActiveCfg = Debug|Win32
+		{ADE57C41-8D78-4CD5-BE72-949795492BF1}.Debug|x86.Build.0 = Debug|Win32
+		{D438E4D9-D3E8-4EC7-A68B-9BDD9EB3B820}.Debug|x86.ActiveCfg = Debug|Win32
+		{D438E4D9-D3E8-4EC7-A68B-9BDD9EB3B820}.Debug|x86.Build.0 = Debug|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.Debug|x86.ActiveCfg = UnicodeDebug|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.Debug|x86.Build.0 = UnicodeDebug|Win32
+		{D90F2703-545D-48C5-B8EE-A2A879E10973}.Debug|x86.ActiveCfg = Debug|Win32
+		{D90F2703-545D-48C5-B8EE-A2A879E10973}.Debug|x86.Build.0 = Debug|Win32
+		{6FD36346-F6E0-4C15-AB8E-52146C007B0F}.Debug|x86.ActiveCfg = Debug|Win32
+		{6FD36346-F6E0-4C15-AB8E-52146C007B0F}.Debug|x86.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97934568-9EFA-489D-9FA1-9A748EB81B49}
+	EndGlobalSection
+EndGlobal

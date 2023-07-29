@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WK_Hitqiqi_Client.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CHitqiqiClientWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CClientNet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CClientCore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CClientUserData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CClientSelectWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CHitqiqiButtonUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UIQiqiPanel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CHitqiqiClientWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientNet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientCore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientUserData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientSelectWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CHitqiqiButtonUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WK_Hitqiqi_Common\WK_Hitqiqi_def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UIQiqiPanel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WK_Hitqiqi_Client.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\close.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\close_fill.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\hpline.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\minisize.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\minisize_fill.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\num_0.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\num_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\num_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\num_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\num_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\num_5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\num_6.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\num_7.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\num_8.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\num_9.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\progress.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\progress2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\qiqi_pic_bladeammor.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\qiqi_pic_dead.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\qiqi_pic_fish.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\qiqi_pic_fitness.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\qiqi_pic_normal.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\qiqi_pic_run.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\qiqi_pic_shadow.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\qiqi_pic_shield.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\qiqi_pic_smoke.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\qiqi_pic_success.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\qiqi_pic_tattoo.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\qiqi_pic_tea.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\WK_log.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="res\WK_HitqiqiMainFrame.xml">
+      <Filter>资源文件</Filter>
+    </Xml>
+    <Xml Include="res\WK_HitqiqiSelectFrame.xml">
+      <Filter>资源文件</Filter>
+    </Xml>
+    <Xml Include="res\WK_StartFrame.xml">
+      <Filter>资源文件</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="150，300" maxinfo="150，300" caption="0,0,0,20" opacity="220" roundcorner="10,10">
+<Font id="0" name="微软雅黑" size="12"  />
+<Font id="1" name="微软雅黑" size="10"  />
+<Font id="2" name="微软雅黑" size="9"  />
+<VerticalLayout >
+
+<VerticalLayout height="100" bkcolor="#FFededef">
+<Button name="minbtn" tooltip="最小化" float="true" pos="112,0,130,18" normalimage=" file='image\minisize.png'" hotimage=" file='image\minisize_fill.png' " pushedimage=" file='image\minisize_fill.png' "/>
+<Button name="closebtn" tooltip="关闭" float="true" pos="132,0,150,18" normalimage=" file='image\close.png' " hotimage=" file='image\close_fill.png' " pushedimage=" file='image\close_fill.png' "/>
+
+<Text name="Textup"   visible="false" text="" borderround="4,4" align="left" font="1" bkcolor="#FFd4fc79" bkcolor2="#FF96e6a1" float="true" pos="5,20,145,52" />
+<Text name="Textdown" visible="false" text="" borderround="4,4" align="left" font="1" bkcolor="#FFF2994A" bkcolor2="#FFF2C94C" float="true" pos="5,57,145,89" />
+</VerticalLayout>
+
+<HorizontalLayout height="200">
+<QiqiPanel name="main_panel" bkcolor="#FFf8f9fa"/>
+<Text name="time" text="0:0:0:0" textcolor="#FFc24545" align="left" font="2" float="true" pos="12,37,107,50" />
+</HorizontalLayout>
+
+</VerticalLayout>
+
+</Window>
